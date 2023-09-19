@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".registationFormResult">
+
+    <TextView
+        android:id="@+id/regifrmresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="User Data"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/ediregiresultuser"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edibackground"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/regifrmresult"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/regifrmresult"
+        app:layout_constraintTop_toBottomOf="@+id/regifrmresult" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/ediregiresultemail"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edibackground"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/ediregiresultuser"
+        app:layout_constraintStart_toStartOf="@+id/ediregiresultuser"
+        app:layout_constraintTop_toBottomOf="@+id/ediregiresultuser" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/ediregiresultpassword"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edibackground"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/ediregiresultemail"
+        app:layout_constraintStart_toStartOf="@+id/ediregiresultemail"
+        app:layout_constraintTop_toBottomOf="@+id/ediregiresultemail" />
+
+    <Button
+        android:id="@+id/loghoperes"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#804D46CB"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Home"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/ediregiresultpassword"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="@+id/ediregiresultpassword"
+        app:layout_constraintTop_toBottomOf="@+id/ediregiresultpassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
